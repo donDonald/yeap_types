@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "mocha 'lib/tsrc/test.js' --timeout 20000",
     "start": "echo \"Error: no start specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donDonald/yeap_types.git"
   },
   "keywords": [
     "yeap_types",
@@ -14,5 +21,9 @@
   ],
   "author": "Pavel Taranov",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donDonald/yeap_types/issues"
+  },
+  "homepage": "https://github.com/donDonald/yeap_types#readme",
   "dependencies": {}
 }
